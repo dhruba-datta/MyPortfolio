@@ -843,24 +843,16 @@ section {
 }
 
 #footer .social-links a {
-  font-size: 18px;
+  font-size: 24px;
   display: inline-block;
-  background: #0563bb;
-  color: #fff;
+  color: #2e7eb3;
   line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
-  border-radius: 50%;
-  text-align: center;
-  width: 36px;
-  height: 36px;
+  margin-right: 20px;
   transition: 0.3s;
 }
 
 #footer .social-links a:hover {
-  background: #0678e3;
-  color: #fff;
-  text-decoration: none;
+  color: #000000;
 }
 
 #footer .copyright {

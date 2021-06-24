@@ -870,3 +870,40 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+.mail{
+  position: relative;
+  cursor: pointer;
+  padding: 8px 15px;
+  margin-top: 28px;
+  font-size: 1.2em;
+  display: inline-block;
+  text-decoration: none;
+  overflow: hidden;
+  border: 2px solid #000;
+  border-radius: 5px;
+}
+.mail span {
+  color: white;
+  font-weight: 500;
+  position: relative;
+  mix-blend-mode: difference;
+}
+.mail::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+  background: rgb(0, 23, 85);
+  transition: transform 0.3s;
+  transform: scaleX(0);
+  transform-origin: right;
+}
+.mail:hover::before {
+
+  transform: scaleX(1);
+  transform-origin: left;
+}

@@ -14,10 +14,10 @@ a:hover {
   color: #067ded;
   text-decoration: none;
 }
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
-
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -262,7 +262,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h1 {
   margin: 0;
-  font-size: 64px;
+  font-size: 70px;
   font-weight: 700;
   line-height: 56px;
   color: #45505b;
@@ -286,7 +286,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .social-links a {
-  font-size: 24px;
+  font-size: 33px;
   display: inline-block;
   color: #45505b;
   line-height: 1;
@@ -303,7 +303,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
   }
   #hero h1 {
-    font-size: 32px;
+    font-size: 40px;
     line-height: 36px;
   }
   #hero p {
@@ -335,9 +335,9 @@ section {
 }
 
 .section-title h2 {
-  font-size: 32px;
+  font-size: 40px;
   font-weight: bold;
-  text-transform: uppercase;
+  text-transform: capitalize;
   margin-bottom: 10px;
   padding-bottom: 20px;
   position: relative;
@@ -375,7 +375,7 @@ section {
 --------------------------------------------------------------*/
 .about .content h3 {
   font-weight: 700;
-  font-size: 26px;
+  font-size: 20px;
   color: #728394;
 }
 
@@ -439,7 +439,7 @@ section {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
-.skills .progress {
+/* .skills .progress {
   height: 50px;
   display: block;
   background: none;
@@ -469,7 +469,7 @@ section {
   height: 10px;
   transition: .9s;
   background-color: #0563bb;
-}
+} */
 
 /*--------------------------------------------------------------
 # Resume
@@ -714,7 +714,7 @@ section {
 
 .contact .info h4 {
   padding: 0 0 0 60px;
-  font-size: 22px;
+  font-size: 28px;
   font-weight: 600;
   margin-bottom: 5px;
   color: #45505b;
@@ -723,7 +723,7 @@ section {
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 18px;
   color: #728394;
 }
 
@@ -831,14 +831,23 @@ section {
 }
 
 #footer h3 {
-  font-size: 36px;
+  font-size: 47px;
   font-weight: 700;
+  text-transform: capitalize;
   position: relative;
   font-family: "Poppins", sans-serif;
   padding: 0;
-  margin: 0 0 15px 0;
+  margin: 0;
 }
 
+#footer h5 {
+  font-size: 19px;
+  font-weight: 400;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin-bottom: 100;
+}
 #footer p {
   font-size: 15;
   font-style: italic;
@@ -847,15 +856,15 @@ section {
 }
 
 #footer .social-links {
-  margin: 0 0 40px 0;
+  margin-top: 15px;
 }
 
 #footer .social-links a {
-  font-size: 24px;
+  font-size: 34px;
   display: inline-block;
   color: #0065c4;
   line-height: 1;
- margin: 10px;
+  margin: 10px;
   transition: 0.3s;
 }
 
@@ -864,11 +873,9 @@ section {
 }
 
 #footer .copyright {
-  margin: 0 0 5px 0;
-}
-
-#footer .credits {
-  font-size: 13px;
+  font-size: large;
+  font-weight: 500;
+  margin-top: 20px;
 }
 
 .mail{
@@ -906,4 +913,111 @@ section {
 
   transform: scaleX(1);
   transform-origin: left;
+}
+
+/*--------------------------------------------------------------
+# skill
+--------------------------------------------------------------*/
+.skill .icon-box {
+  text-align: center;
+  padding: 70px 20px 80px 20px;
+  transition: all ease-in-out 0.3s;
+  background: #fff;
+  box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
+}
+.skill .icon-box .icon {
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: ease-in-out 0.3s;
+  position: relative;
+}
+.skill .icon-box .icon i {
+  font-size: 36px;
+  transition: 0.5s;
+  position: relative;
+}
+.skill .icon-box .icon svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.skill .icon-box .icon svg path {
+  transition: 0.5s;
+  fill: #f5f5f5;
+}
+.skill .icon-box h4 {
+  font-weight: 600;
+  margin: 10px 0 15px 0;
+  font-size: 22px;
+}
+.skill .icon-box h4 a {
+  color: #45505b;
+  transition: ease-in-out 0.3s;
+}
+.skill .icon-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.skill .icon-box:hover {
+  border-color: #fff;
+  box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
+}
+.skill .iconbox-blue i {
+  color: #47aeff;
+}
+.skill .iconbox-blue:hover .icon i {
+  color: #fff;
+}
+.skill .iconbox-blue:hover .icon path {
+  fill: #47aeff;
+}
+.skill .iconbox-orange i {
+  color: #ffa76e;
+}
+.skill .iconbox-orange:hover .icon i {
+  color: #fff;
+}
+.skill .iconbox-orange:hover .icon path {
+  fill: #ffa76e;
+}
+.skill .iconbox-pink i {
+  color: #e80368;
+}
+.skill .iconbox-pink:hover .icon i {
+  color: #fff;
+}
+.skill .iconbox-pink:hover .icon path {
+  fill: #e80368;
+}
+.skill .iconbox-yellow i {
+  color: #ffbb2c;
+}
+.skill .iconbox-yellow:hover .icon i {
+  color: #fff;
+}
+.skill .iconbox-yellow:hover .icon path {
+  fill: #ffbb2c;
+}
+.skill .iconbox-red i {
+  color: #ff5828;
+}
+.skill .iconbox-red:hover .icon i {
+  color: #fff;
+}
+.skill .iconbox-red:hover .icon path {
+  fill: #ff5828;
+}
+.skill .iconbox-teal i {
+  color: #11dbcf;
+}
+.skill .iconbox-teal:hover .icon i {
+  color: #fff;
+}
+.skill .iconbox-teal:hover .icon path {
+  fill: #11dbcf;
 }

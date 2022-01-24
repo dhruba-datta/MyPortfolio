@@ -831,7 +831,7 @@ section {
 }
 
 #footer h3 {
-  font-size: 47px;
+  font-size: 40px;
   font-weight: 700;
   text-transform: capitalize;
   position: relative;
@@ -841,7 +841,7 @@ section {
 }
 
 #footer h5 {
-  font-size: 19px;
+  font-size: 16px;
   font-weight: 400;
   position: relative;
   font-family: "Poppins", sans-serif;
@@ -849,7 +849,7 @@ section {
   margin-bottom: 100;
 }
 #footer p {
-  font-size: 15;
+  font-size: 15px;
   font-style: italic;
   padding: 0;
   margin: 0 0 40px 0;
@@ -873,7 +873,7 @@ section {
 }
 
 #footer .copyright {
-  font-size: large;
+  font-size: 15px;
   font-weight: 500;
   margin-top: 20px;
 }

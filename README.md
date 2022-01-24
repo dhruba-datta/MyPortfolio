@@ -5,3 +5,6 @@ This portfolio is SEO indexed. Simply search for **[Dhruba Datta](https://www.go
 
 ## Demo
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/74358627/150762732-1f411f39-1032-4e9a-970b-0d352eb71e43.gif)
+
+https://user-images.githubusercontent.com/74358627/150764375-06c8b502-ee24-4d31-bc20-e7c431766f7e.mp4
+

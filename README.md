@@ -26,5 +26,5 @@ This portfolio is SEO indexed. Simply search for **[Dhruba Datta](https://www.go
 
 ## ✅ Acknowledgements
 
- - [My Portfolio](https://dhruba-datta.github.io/MyPortfolio/)
+ - [My Portfolio](https://dhruba-datta.netlify.app)
  - [Template I've Used](https://bootstrapmade.com/free-html-bootstrap-template-my-resume/)

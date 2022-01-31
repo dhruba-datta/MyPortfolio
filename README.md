@@ -1,4 +1,5 @@
-# MyPortfolio🔥![GitHub watchers](https://img.shields.io/github/watchers/dhruba-datta/MyPortfolio?style=social) ![GitHub Repo stars](https://img.shields.io/github/stars/dhruba-datta/MyPortfolio?style=social)
+# MyPortfolio🔥![GitHub watchers](https://img.shields.io/github/watchers/dhruba-datta/MyPortfolio?style=social) ![GitHub Repo stars](https://img.shields.io/github/stars/dhruba-datta/MyPortfolio?style=social)  ![](https://visitor-badge.glitch.me/badge?page_id=dhruba-datta.dhruba-datta/MyPortfolio")
+
 
 ## 🚀 About Me
 I'm Dhruba, currently an undergraduate student at Delhi Technological University(DTU).Currently learning Data Structures and Algorithms, while understanding and implementing the fundamentals of computer engineering and learning web development. \

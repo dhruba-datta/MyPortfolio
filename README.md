@@ -10,20 +10,19 @@ This portfolio is SEO indexed. Simply search for **[Dhruba Datta](https://www.go
 ![Portfolio header](https://user-images.githubusercontent.com/74358627/150764762-9474a73c-d6d4-413e-bc2a-cd68df268532.gif)
 
 ### About Me Section
-![About](https://user-images.githubusercontent.com/74358627/150767310-252dd130-6636-4e9c-a6c7-3f60161b9a02.gif)
+![image](https://user-images.githubusercontent.com/74358627/190100914-42dedd11-11e6-4870-8ea7-33da42787dc1.png)
 
 ### Skill Section
-![skill](https://user-images.githubusercontent.com/74358627/150767689-30cf6f4c-6b3d-47c5-aeaf-dd2634cc5b29.gif)
+![image](https://user-images.githubusercontent.com/74358627/190101093-114140d0-1ae8-4e85-b9b4-d3d6bcdb2d0b.png)
 
 ### Resume Section
-![resume](https://user-images.githubusercontent.com/74358627/150767734-d3f10713-4504-4b36-86f5-d2999f00ffe2.gif)
+![image](https://user-images.githubusercontent.com/74358627/190101264-1cb7909c-3b38-485c-9eb7-4953b1dc0af3.png)
 
 ### Project Section
-![Dhruba Datta _ Portfolio - Opera 2022-01-24 15-15-51_1](https://user-images.githubusercontent.com/74358627/150769157-5993cf5d-5ad2-431c-b938-eddef72b78db.gif)
+![image](https://user-images.githubusercontent.com/74358627/190101364-e72c4e9c-c5d7-4f5a-a06b-2155dc92fe86.png)
 
 ### Contact Me Section
-![contact](https://user-images.githubusercontent.com/74358627/150767789-96ca2da1-c14e-4074-a8f6-d8f1099b1e90.gif)
-
+![image](https://user-images.githubusercontent.com/74358627/190101514-fa7fbfb2-5bb5-4ace-bd37-fbc28150f346.png)
 
 ## ✅ Acknowledgements
 

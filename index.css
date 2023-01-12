@@ -661,6 +661,7 @@ section {
 #footer h3 {
   font-size: 40px;
   font-weight: 700;
+  color: #0059ad;
   text-transform: capitalize;
   position: relative;
   font-family: Poppins, sans-serif;

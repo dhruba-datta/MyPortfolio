@@ -774,6 +774,9 @@ section {
   color: #45505b;
   transition: ease-in-out 0.3s;
 }
+.skill .icon-box h4 a:hover {
+  color: #0065c4;
+}
 .skill .icon-box p {
   line-height: 24px;
   font-size: 14px;

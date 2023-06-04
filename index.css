@@ -841,3 +841,6 @@ section {
 .skill .iconbox-teal:hover .icon path {
   fill: #11dbcf;
 }
+.resume .resume-item b {
+  color: rgba(46, 56, 64, 0.936);
+}

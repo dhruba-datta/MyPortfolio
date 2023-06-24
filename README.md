@@ -2,7 +2,7 @@
 
 
 ## 🚀 About Me
-I'm Dhruba, currently an undergraduate student at Delhi Technological University(DTU).Currently learning Data Structures and Algorithms, while understanding and implementing the fundamentals of computer engineering and learning web development. \
+I'm Dhruba, graduated from Delhi Technological University(DTU) with a major in Software Engineering. Currently learning Data Structures and Algorithms, while understanding and implementing the fundamentals of computer engineering and learning web development. \
 This portfolio is SEO indexed. Simply search for **[Dhruba Datta](https://www.google.com/search?client=opera&q=dhruba+datta&sourceid=opera&ie=UTF-8&oe=UTF-8)** on Google to check!
 
 ## 🐣 Demo

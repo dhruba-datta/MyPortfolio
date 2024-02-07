@@ -629,7 +629,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #00e1ffd0;
+  color: #2989e3;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -843,7 +843,7 @@ section {
 }
 
 .mail span {
-  color: #fff;
+  color: #ffffff;
   font-weight: 500;
   position: relative;
   mix-blend-mode: difference;
@@ -856,7 +856,7 @@ section {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #001755;
+  background: #001842;
   transition: transform 0.3s;
   transform: scaleX(0);
   transform-origin: right;
@@ -1002,5 +1002,5 @@ section {
 }
 
 .resume .resume-item b {
-  color: rgba(46, 56, 64, 0.936);
+  color: #2E3840EE;
 }

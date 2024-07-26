@@ -365,6 +365,10 @@ section {
   margin-bottom: 0;
 }
 
+.about img{
+  margin-top: 20px;
+}
+
 .about .content h3 {
   font-weight: 700;
   font-size: 20px;
@@ -388,6 +392,10 @@ section {
 
 .about .content p:last-child {
   margin-bottom: 0;
+}
+
+.about hr{
+  margin-bottom: 42px;
 }
 
 .skill .icon-box {

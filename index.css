@@ -848,7 +848,8 @@ section {
   position: relative;
   cursor: pointer;
   padding: 8px 15px;
-  margin-top: 28px;
+  margin-top: 35px;
+  margin-bottom: 25px;
   font-size: 1.2em;
   display: inline-block;
   text-decoration: none;

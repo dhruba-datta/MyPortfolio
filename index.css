@@ -723,7 +723,7 @@ section {
 .contact .info .address:hover i,
 .contact .info .email:hover i,
 .contact .info .phone:hover i {
-  background: #0678e3;
+  background: #0059ad;
   color: #fff;
 }
 
@@ -889,8 +889,9 @@ section {
 }
 
 #footer .copyright {
+  font-family: Poppins, sans-serif;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 400;
   margin-top: 20px;
 }
 

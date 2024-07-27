@@ -18,7 +18,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Raleway, sans-serif;
+  font-family: Poppins, sans-serif;
 }
 
 .back-to-top {
@@ -255,7 +255,6 @@ h6 {
 #hero h1 {
   margin: 0;
   font-size: 70px;
-  font-family: Poppins, sans-serif;
   font-weight: 700;
   font-style: normal;
   line-height: 56px;
@@ -332,7 +331,6 @@ section {
   font-size: 40px;
   font-weight: 700;
   text-transform: capitalize;
-  font-family: Poppins, sans-serif;
   margin-bottom: 10px;
   padding-bottom: 20px;
   position: relative;
@@ -370,9 +368,11 @@ section {
 }
 
 .about .content h3 {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 20px;
   color: #728394;
+  margin-bottom: 18px;
+  margin-top: 8px;
 }
 
 .about .content ul {
@@ -421,7 +421,7 @@ section {
 .skill .icon-box h4 {
   font-weight: 600;
   margin: 10px 0 15px 0;
-  font-size: 22px;
+  font-size: 20px;
   color: #45505b;
   transition: ease-in-out 0.3s;
 }
@@ -443,8 +443,8 @@ section {
 }
 
 .resume .resume-title {
-  font-size: 26px;
-  font-weight: 700;
+  font-size: 24px;
+  font-weight: 600;
   margin-top: 20px;
   margin-bottom: 20px;
   color: #45505b;
@@ -457,22 +457,11 @@ section {
   position: relative;
 }
 
-.resume .resume-item h2 {
-  font-size: 16px;
-
-  padding: 5px 1px;
-  display: inline-block;
-  font-weight: 600;
-  margin: 10px 0px;
-  margin-bottom: 1px;
-}
-
 .resume .resume-item h4 {
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
-  font-family: Poppins, sans-serif;
   color: #0059ad;
   margin: 15px 0px 10px;
 }
@@ -482,6 +471,7 @@ section {
   background: #f7f8f9;
   padding: 5px 1px;
   display: inline-block;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   margin-bottom: 10px;
 
@@ -491,9 +481,17 @@ section {
   font-size: 15px;
   padding: 2px 1px;
   display: inline-block;
-  font-weight: 600;
+  font-weight: 500;
+}
+
+.resume .resume-item h6 span{
+  font-weight: 400;
+}
+
+.resume .resume-item p{
   margin-bottom: 10px;
 }
+
 
 .resume .resume-item ul {
   padding-left: 20px;
@@ -523,6 +521,8 @@ section {
 .resume .resume-item b {
   color: #2E3840EE;
 }
+
+
 
 .portfolio .portfolio-item {
   margin-bottom: 30px;
@@ -701,11 +701,15 @@ section {
 
 .contact .info h4 {
   padding: 0 0 0 60px;
-  font-family: Poppins, sans-serif;
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
   color: #45505b;
+}
+
+.contact h5 {
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .contact .info p {
@@ -731,7 +735,7 @@ section {
   position: relative;
   cursor: pointer;
   padding: 8px 15px;
-  margin-top: 42px;
+  margin-top: 38px;
   margin-bottom: 25px;
   font-family: Poppins, sans-serif;
   font-size: 1.2em;
@@ -855,7 +859,6 @@ element.style {
   color: #0059ad;
   text-transform: capitalize;
   position: relative;
-  font-family: Poppins, sans-serif;
   padding: 0;
   margin: 0;
 }
@@ -864,7 +867,6 @@ element.style {
   font-size: 20px;
   font-weight: 400;
   position: relative;
-  font-family: Poppins, sans-serif;
   padding: 0;
   margin-bottom: 100;
 }
@@ -899,10 +901,3 @@ element.style {
   font-weight: 400;
   margin-top: 20px;
 }
-
-
-/* 
-primary: 0059ad
-hover: 0678e3 
-
-*/

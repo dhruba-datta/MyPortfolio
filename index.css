@@ -707,11 +707,6 @@ section {
   color: #45505b;
 }
 
-.contact h5 {
-  font-size: 18px;
-  font-weight: 400;
-}
-
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
@@ -719,10 +714,6 @@ section {
   color: #728394;
 }
 
-.contact p {
-  margin-bottom: 10px;
-  color: #728394;
-}
 
 .contact .info .email,
 .contact .info .phone {
@@ -778,6 +769,51 @@ section {
   transform-origin: left;
 }
 
+.timeline {
+  position: relative;
+  list-style: none;
+}
+
+.timeline:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2.5px;
+  background: #0059ad;
+  top: 15px;
+  left: 6px;
+  margin-left: -2px;
+}
+
+.timeline-item {
+  position: relative;
+  margin: 1em 0;
+  padding-left: 30px;
+}
+
+.timeline-item:before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 50px;
+  left: -1px;
+  top: 6px;
+  background: #fff;
+  border: 2px solid #0059ad;
+}
+
+.timeline-date {
+  margin-bottom: 2px;
+  color: #728394;
+}
+
+.timeline-content h5{
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
 
 @-webkit-keyframes animate-loading {
   0% {

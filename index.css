@@ -580,6 +580,15 @@ section {
   border: 2px solid #0059ad;
 }
 
+.resume .timeline-item ul {
+  padding-left: 20px;
+  margin-bottom: 0px;
+}
+
+.resume .timeline-item ul li {
+  padding-bottom: 10px;
+}
+
 .resume .timeline-item b {
   color: #2E3840EE;
 }

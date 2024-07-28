@@ -480,17 +480,23 @@ section {
   font-size: 15px;
   padding: 2px 1px;
   display: inline-block;
-  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
 }
 
-.resume .resume-item h6 span{
+.resume .resume-item p span{
   font-weight: 400;
+  font-family: Poppins, sans-serif;
+  font-size: 15px;
 }
 
 .resume .resume-item p{
   margin-bottom: 10px;
 }
 
+.resume .resume-item .volunteer{
+  margin-bottom: 20px;
+}
 
 .resume .resume-item ul {
   padding-left: 20px;

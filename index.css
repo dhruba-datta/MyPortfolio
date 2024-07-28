@@ -461,7 +461,6 @@ section {
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
-  text-transform: uppercase;
   color: #0059ad;
   margin: 15px 0px 10px;
 }
@@ -522,7 +521,62 @@ section {
   color: #2E3840EE;
 }
 
+.resume .timeline {
+  position: relative;
+  list-style: none;
+}
 
+.resume .timeline:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2.5px;
+  background: #0059ad;
+  top: 15px;
+  left: 2px;
+  margin-left: -2px;
+}
+
+.resume .timeline-item {
+  position: relative;
+  margin: 1em 0;
+  padding-left: 22px;
+}
+
+.resume .timeline-item:before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 50px;
+  left: -5px;
+  top: 6px;
+  background: #fff;
+  border: 2px solid #0059ad;
+}
+
+.resume .timeline-item-alt {
+  position: relative;
+  margin: 1em 0;
+  padding-left: 0px;
+}
+
+.resume .timeline-item-alt:before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 50px;
+  left: -27px;
+  top: 6px;
+  background: #fff;
+  border: 2px solid #0059ad;
+}
+
+.resume .timeline-item b {
+  color: #2E3840EE;
+}
 
 .portfolio .portfolio-item {
   margin-bottom: 30px;
@@ -714,7 +768,6 @@ section {
   color: #728394;
 }
 
-
 .contact .info .email,
 .contact .info .phone {
   margin-top: 40px;
@@ -727,7 +780,7 @@ section {
   color: #fff;
 }
 
-.mail {
+.contact .mail {
   position: relative;
   cursor: pointer;
   padding: 8px 15px;
@@ -745,12 +798,12 @@ section {
   z-index: 2;
 }
 
-.mail:hover span {
+.contact .mail:hover span {
   color: #fff;
   position: relative;
 }
 
-.mail::before {
+.contact .mail::before {
   content: "";
   position: absolute;
   top: 0;
@@ -763,18 +816,18 @@ section {
   transform-origin: right;
 }
 
-.mail:hover::before {
+.contact .mail:hover::before {
   transform: scaleX(1);
   background: #0059ad;
   transform-origin: left;
 }
 
-.timeline {
+.contact .timeline {
   position: relative;
   list-style: none;
 }
 
-.timeline:before {
+.contact .timeline:before {
   content: '';
   position: absolute;
   top: 0;
@@ -786,13 +839,13 @@ section {
   margin-left: -2px;
 }
 
-.timeline-item {
+.contact .timeline-item {
   position: relative;
   margin: 1em 0;
   padding-left: 30px;
 }
 
-.timeline-item:before {
+.contact .timeline-item:before {
   content: "";
   position: absolute;
   width: 12px;
@@ -804,12 +857,12 @@ section {
   border: 2px solid #0059ad;
 }
 
-.timeline-date {
+.contact .timeline-date {
   margin-bottom: 2px;
   color: #728394;
 }
 
-.timeline-content h5{
+.contact .timeline-content h5{
   font-size: 18px;
   font-weight: 400;
   margin-bottom: 25px;

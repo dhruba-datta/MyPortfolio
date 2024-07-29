@@ -754,7 +754,7 @@ section {
 .contact .info {
   width: 100%;
   background: #fff;
-  padding-top: 10px;
+  padding-top: 0px;
 }
 
 .contact .info i {
@@ -890,7 +890,7 @@ section {
 .contact .timeline-content h5{
   font-size: 18px;
   font-weight: 400;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 @-webkit-keyframes animate-loading {

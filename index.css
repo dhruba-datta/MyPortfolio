@@ -443,7 +443,7 @@ section {
 }
 
 .resume .resume-title {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 600;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -477,7 +477,7 @@ section {
 }
 
 .resume .resume-item h6 {
-  font-size: 15px;
+  font-size: 15.4px;
   padding: 2px 1px;
   display: inline-block;
   font-family: "Open Sans", sans-serif;
@@ -487,7 +487,11 @@ section {
 .resume .resume-item p span{
   font-weight: 400;
   font-family: Poppins, sans-serif;
-  font-size: 15px;
+  font-size: 15.3px;
+}
+
+.resume .resume-item p span b{
+  font-weight: 600;
 }
 
 .resume .resume-item p{
@@ -875,6 +879,12 @@ section {
 .contact .timeline-date {
   margin-bottom: 2px;
   color: #728394;
+}
+
+.contact .update-title {
+  font-size: 22px;
+  font-weight: 600;
+  color: rgb(69, 80, 91);
 }
 
 .contact .timeline-content h5{
